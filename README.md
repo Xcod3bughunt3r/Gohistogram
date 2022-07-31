@@ -2,8 +2,6 @@
 
 ![build status](https://circleci.com/gh/VividCortex/gohistogram.png?circle-token=d37ec652ea117165cd1b342400a801438f575209)
 
-#### This package provides [Streaming Approximate Histograms](https://hackillyournet.id/blog/2022/07/21/Gohistogram/index.html) for efficient quantile approximations.
-
 #### Histogram dalam paket ini didasarkan pada algoritma yang ditemukan di Ben-Haim & Yom-Tov's *A Streaming Parallel Decision Tree Algorithm* ([PDF](http://jmlr.org/papers/volume11/ben-haim10a/ben-haim10a.pdf)).
 
 #### Bins histogram tidak memiliki ukuran preset. Sebagai nilai-nilai mengalir ke histogram, tempat sampah ditambahkan secara dinamis dan digabung.
